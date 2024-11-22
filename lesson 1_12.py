@@ -14,6 +14,7 @@ print('привет, я строка в нижнем регистре'.replace('
 #Практическое задание 1_4
 my_string = (input("Введите ваши ФИО: "))
 print("Количество символов: ", len(my_string))
+print("Количество букв: ", len(my_string.replace(' ','')))
 print('Верхний регистр: ',my_string.upper())
 print('Нижний регистр: ',my_string.lower())
 print('Без пробелов: ', my_string.replace(' ',''))
